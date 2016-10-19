@@ -45,8 +45,9 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var lib = __webpack_require__(1);
+	var colors = __webpack_require__(2);
 
-	console.log('Colors are ' + lib.colors);
+	console.log('Colors are ' + colors);
 	lib.sayHello();
 
 /***/ },
@@ -54,9 +55,20 @@
 /***/ function(module, exports) {
 
 	module.exports = {
-	  colors: ['red', 'yellow', 'blue', 'green', 'black'],
 	  sayHello: function() { console.log('Hello World!!!')}
 	};
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+	module.exports = [
+		"red",
+		"yellow",
+		"blue",
+		"green",
+		"black"
+	];
 
 /***/ }
 /******/ ]);

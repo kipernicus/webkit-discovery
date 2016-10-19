@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/kipernicus/webkit-discovery#readme",
   "devDependencies": {
+    "json-loader": "^0.5.4",
     "webpack": "^1.13.2"
   }
 }

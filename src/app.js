@@ -1,4 +1,5 @@
 var lib = require('./lib');
+var colors = require('./json/colors.json');
 
-console.log('Colors are ' + lib.colors);
+console.log('Colors are ' + colors);
 lib.sayHello();
