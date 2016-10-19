@@ -1,0 +1,26 @@
+{
+  "name": "webpack-discovery",
+  "version": "1.0.0",
+  "description": "An app to try out the different features of Webpack",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kipernicus/webkit-discovery.git"
+  },
+  "keywords": [
+    "webkit",
+    "discovery"
+  ],
+  "author": "kipernicus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kipernicus/webkit-discovery/issues"
+  },
+  "homepage": "https://github.com/kipernicus/webkit-discovery#readme",
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
+}
